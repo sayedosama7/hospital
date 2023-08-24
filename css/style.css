@@ -82,6 +82,7 @@ header h2 {
     .header-caption {
         height: auto;
         width: 280px;
+        margin-left: 0;
     }
 
     header h2 {
@@ -181,6 +182,7 @@ header h2 {
 @media only screen and (max-width:992px) {
     .touch {
         height: auto;
+        padding: 30px;
     }
 
     .touch h1 {
@@ -270,6 +272,7 @@ header h2 {
     .footer h2 {
         font-size: 20px;
     }
+
 }
 
 @media only screen and (max-width:768px) {
@@ -282,6 +285,10 @@ header h2 {
         color: #fff;
         font-size: 18px;
         word-spacing: 5px;
+    }
+    .footer {
+        padding: 40px;
+
     }
 }
 
