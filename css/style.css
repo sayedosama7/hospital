@@ -1,0 +1,285 @@
+/* start global  */
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* End global  */
+/* start header  */
+header {
+    background: linear-gradient(to right, #a5c3cc5d, #a5c3cc56), url(https://images.pexels.com/photos/11198236/pexels-photo-11198236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 611px;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+header nav img {
+    width: 80px;
+    border-radius: 50%;
+    animation: move 1s linear infinite alternate;
+}
+
+.navbar {
+    width: 80%;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #ed7c6a !important;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #59a18a;
+}
+
+.navbar-toggler-icon {
+    margin: 5px 0;
+
+}
+
+.header-caption {
+    margin-top: 8%;
+    margin-left: 100px;
+    height: 320px;
+    width: 400px;
+    color: #fff;
+    background-color: #59a18a9d;
+    border-radius: 30px;
+    padding: 50px 40px;
+    /* animation:move 1s linear infinite alternate; */
+}
+
+header h2 {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 38px;
+}
+
+@keyframes move {
+    from {
+        transform: translate(0px, 0px);
+    }
+
+    to {
+        transform: translate(50px, 0px);
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .header-caption {
+        height: auto;
+        width: 280px;
+    }
+
+    header h2 {
+        line-height: 1.5;
+        font-size: 35px;
+    }
+
+    header nav img {
+        width: 60px;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+}
+
+/* End header  */
+
+/* start clinic section */
+.clinic {
+    padding: 50px;
+}
+
+.clinic img {
+    width: 80%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.clinic h1 {
+    text-align: center;
+    color: #074d4c;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.clinic hr {
+    width: 200px;
+    margin:0 auto;
+    margin-bottom: 50px;
+    height: 3px;
+    background-color: #e98317;
+}
+
+.clinic-caption h4 {
+    margin-top: 50px;
+    color: #439da5;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:768px) {
+    .clinic-caption {
+        text-align: center;
+    }
+}
+
+/* End clinic section */
+.touch {
+    background-image: linear-gradient(#5ea2a183, #5ea2a194), url(https://media.istockphoto.com/id/500682413/photo/experienced-doctor-posing-with-surgeon-attending-patient-on-backg.jpg?s=612x612&w=0&k=20&c=9XoSg-TLqPv0hiQYpXj2R9gYbNRaMGV1B9c0ozFGbxE=);
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    padding: 100px;
+}
+
+.touch img {
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.touch h1 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 500;
+
+}
+
+.touch h3 {
+    margin: 15px -10px;
+    color: #439da5;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.touch p {
+    color: #21252985;
+    text-align: center;
+}
+
+.rounded {
+    border-radius: 10px !important;
+}
+
+@media only screen and (max-width:992px) {
+    .touch {
+        height: auto;
+    }
+
+    .touch h1 {
+        font-size: 20px;
+    }
+}
+
+/* start doctors  */
+.doctors {
+    padding: 100px;
+}
+.doctors hr {
+    width: 200px;
+    margin:0 auto;
+    margin-bottom: 50px;
+    height: 3px;
+    background-color: #e98317;
+}
+.doctors img {
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width:768px) {
+    .doctors {
+        padding: 50px;
+    }
+}
+
+/* End doctors  */
+
+/* start footer  */
+.footer {
+    background-color: #0f7b65;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    padding: 100px 50px 50px;
+    color: #fff;
+}
+
+.footer h1 {
+    font-size: 35px;
+    color: #ef8e7f;
+}
+
+.footer p {
+    line-height: 2;
+}
+
+.footer h2 {
+    color: #ef8e7f;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+@media only screen and (max-width:768px) {
+    .footer {
+        text-align: center;
+    }
+}
+
+.copyrights span i {
+    color: red;
+    margin: 0 10px;
+}
+
+.copyrights .icons i {
+    color: #ef8e7f;
+    margin-left: 20px;
+    font-size: 40px;
+    animation: move 2s linear infinite alternate;
+}
+
+.copyrights .icons i:hover {
+    color: #fff;
+}
+
+.copyrights p {
+    color: #fff;
+    font-size: 25px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width:768px) {
+    .copyrights .icons i {
+        margin-left: 10px;
+        font-size: 30px;
+    }
+
+    .copyrights p {
+        color: #fff;
+        font-size: 18px;
+        word-spacing: 5px;
+    }
+}
+
+/* End footer  */
