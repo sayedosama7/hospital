@@ -121,7 +121,7 @@ header h2 {
 
 .clinic hr {
     width: 200px;
-    margin:0 auto;
+    margin: 0 auto;
     margin-bottom: 50px;
     height: 3px;
     background-color: #e98317;
@@ -192,13 +192,15 @@ header h2 {
 .doctors {
     padding: 100px;
 }
+
 .doctors hr {
     width: 200px;
-    margin:0 auto;
+    margin: 0 auto;
     margin-bottom: 50px;
     height: 3px;
     background-color: #e98317;
 }
+
 .doctors img {
     margin-bottom: 30px;
     border-radius: 20px;
@@ -234,16 +236,11 @@ header h2 {
     color: #ef8e7f;
     font-weight: 500;
     font-size: 25px;
+    text-align: center;
 }
 
 .footer a {
     color: #fff;
-}
-
-@media only screen and (max-width:768px) {
-    .footer {
-        text-align: center;
-    }
 }
 
 .copyrights span i {
@@ -267,6 +264,12 @@ header h2 {
     font-size: 25px;
     word-spacing: 10px;
     letter-spacing: 2px;
+}
+
+@media only screen and (max-width:992px) {
+    .footer h2 {
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width:768px) {
